@@ -5,10 +5,10 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
+import { graphql, useStaticQuery } from "gatsby"
 
+import Image from "gatsby-image"
+import React from "react"
 import { rhythm } from "../utils/typography"
 
 const Bio = () => {
@@ -54,9 +54,8 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in San
-        Francisco building useful things.
-        {` `}
+        Written by <strong>{author}</strong>, He is web developer currently living in Ahmedabad, 
+        India. His interests range from technology to design.
         <a href={`https://twitter.com/${social.twitter}`}>
           You should follow him on Twitter
         </a>
