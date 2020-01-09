@@ -1,7 +1,7 @@
-import React from "react"
-import { Link } from "gatsby"
-
 import { rhythm, scale } from "../utils/typography"
+
+import { Link } from "gatsby"
+import React from "react"
 
 class Layout extends React.Component {
   render() {
@@ -63,9 +63,9 @@ class Layout extends React.Component {
         <header>{header}</header>
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          © {new Date().getFullYear()}
+          {"  "}
+          <a href="https://krunalpatel.in/">krunalpatel.in</a>
         </footer>
       </div>
     )

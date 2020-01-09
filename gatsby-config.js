@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Information blog`,
+    title: `frontendthoughts`,
     author: `Krunal Patel`,
     description: `Going show the word that what front-end can do`,
-    siteUrl: `https://kpblog.netlify.com/`,
+    siteUrl: `https://krunalpatel.in/`,
     social: {
       twitter: `kprocks07`,
     },
@@ -72,6 +72,12 @@ module.exports = {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || "",
       },
     },
   ],

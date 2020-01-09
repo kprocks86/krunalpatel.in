@@ -54,11 +54,11 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong>, He is web developer currently living in Ahmedabad, 
-        India. His interests range from technology to design.
+        Personal blog by{" "}
         <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
+          <strong>{author}</strong>
         </a>
+        ,<p>I am React-Graphql enthusiast. </p>
       </p>
     </div>
   )
