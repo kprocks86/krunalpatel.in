@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `frontendthoughts`,
+    title: `frontend thoughts`,
     author: `Krunal Patel`,
-    description: `Going show the word that what front-end can do`,
+    description: `Personal blog by Krunal Patel & his thoughts`,
     siteUrl: `https://krunalpatel.in/`,
     social: {
       twitter: `kprocks07`,
@@ -39,15 +39,24 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
+          `gatsby-remark-prismjs`,
+          `gatsby-remark-reading-time`,
         ],
       },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-feed`,
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /svg/,
+        },
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

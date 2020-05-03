@@ -1,6 +1,3 @@
 {
-    "recommendations": [
-      "remimarsal.prettier-now",
-      "amatiasq.sort-imports"
-    ]
-  }
+  "recommendations": ["remimarsal.prettier-now", "amatiasq.sort-imports"]
+}

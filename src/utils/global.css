@@ -1,0 +1,28 @@
+@media (max-width: 672px) {
+  .gatsby-highlight {
+    border-radius: 0;
+  }
+}
+
+.gatsby-highlight {
+  overflow: auto;
+  background-color: #282a36;
+  border-radius: 8px;
+}
+.gatsby-highlight pre[class*="language-"] {
+  overflow: initial;
+  float: left;
+  min-width: 100%;
+  margin: 0;
+  background-color: transparent;
+}
+
+.gatsby-highlight-code-line {
+  position: relative;
+  display: block;
+  z-index: 1;
+  margin: 0 -15px;
+  padding: 0 12px;
+  border-left: 3px solid #bd93f9;
+  background-color: rgba(189, 147, 249, 0.25);
+}

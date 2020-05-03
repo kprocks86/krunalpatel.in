@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap');
+
+.container {
+  background: #ec008c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fc6767,
+    #ec008c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fc6767,
+    #ec008c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  flex-direction: column;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.horizotalWave svg {
+  height: auto;
+  width: 100%;
+}
+
+.middleSection {
+  display: flex;
+  align-self: center;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.titleBox {
+  align-self: center;
+  line-height: initial;
+}
+
+.titleBox .title {
+  font-size: 30px;
+  color: white;
+  font-weight: bolder;
+}
+
+.titleBox .desc {
+  font-size: 15px;
+  color: white;
+  padding-top: 20px;
+}
+
+/* header css start */
+.header-root {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ee6467;
+  padding: 15px;
+}
+.header-root .links {
+  display: flex;
+}
+
+.links .link-item {
+  padding-right: 10px;
+}
+/* header css end */
+
+/* globle overrides start */
+a {
+  color: inherit !important;
+  box-shadow: none !important;
+}
+/* globle overrides end*/
